@@ -3,7 +3,7 @@ package org.lynn;
 public class Main {
 
     static {
-        System.load("");
+        System.loadLibrary("helloworld");
     }
 
     public native void helloworld();
